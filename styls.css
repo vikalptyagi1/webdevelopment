@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 56px; /* Add space for fixed navbar */
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.about-section,
+.contact-section,
+.social-section,
+.location-section {
+    padding: 50px 0;
+}
+
+.section-title {
+    font-size: 2em;
+    color: #343a40;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 1em; /* Adjust font size for smaller screens */
+    }
+
+    .carousel-caption {
+        font-size: 1em; /* Adjust font size for captions on smaller screens */
+}
+}
